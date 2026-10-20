@@ -27,5 +27,6 @@ jobs:
         if: always()
         run: echo "정리"
       - name: 무시되는 실패
+        if: always()
         continue-on-error: true
         run: exit 1
