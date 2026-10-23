@@ -22,6 +22,7 @@ env:
   TASK_FAMILY: ${{ vars.TASK_FAMILY }}
   CONTAINER_NAME: file-service
 
+
 jobs:
   # 테스트는 재사용 워크플로를 불러 씀 (ci.yml 은 PR 관문 검사 이름 test 를 지키려고 그대로 둠)
   test:
